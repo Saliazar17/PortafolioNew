@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="less/main.less" type="text/css">
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>JS</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="https://youtube.com/@jsiliezar17?si=p6rwtoqiwD1HDEuk" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/jsiliezarmoreno/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/og.saliazar__/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Jonathan Siliezar</span>, Desarrollador Web</h2>
+                <p class="descripcion">Bienvenidos a mi Portafolio Virtual, espero y esta url te sirva de mucha ayuda para saber mas sobre mi</p>
+            </div>
+        </div>
+    </section>
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">QUIEN SOY</p>
+            <h2>Hola, Soy <span>Jonathan Siliezar</span> </h2>
+            <h3>Desarrollador Web</h3>
+            <p>Soy un desarrollador web en el inicio de mi carrera. Aunque estoy comenzando este emocionante viaje, ya he adquirido habilidades clave en tecnologías web como HTML, CSS y JavaScript. Me apasiona crear interfaces limpias, funcionales y centradas en el usuario, y estoy constantemente aprendiendo y mejorando para mantenerme al día con las últimas tendencias y herramientas del desarrollo web.</p>
+        </div>
+    </section>
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                </ul>
+                <p>Mis aprendizajes y conocimientos son cortos pero mi mente esta abierta a mucha mas informacion por conocer sobre estos lenguajes</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Porgramación PHP</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>SQL Server</li>
+                    <li>MYSQL</li>
+                    <li>MongoDB</li>
+                </ul>
+                <p>Conocimientos basicos pero funcionales en la administracion de BDD's</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Diseñador Gráfico</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Ilustrator</li>
+                    <li>Photoshop</li>
+                    <li>Corelldraw</li>
+                </ul>
+                <p>Hacer uno que otro estilo nunca es menos, y quisiera aprender mas sobre estos programas de edicion</p>
+            </div>
+        </div>
+    </section>
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Correo Electronico" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Algo que me quieras decir..." class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="redes">
+            <a href="https://youtube.com/@jsiliezar17?si=p6rwtoqiwD1HDEuk" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/jsiliezarmoreno/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/og.saliazar__/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
